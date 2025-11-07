@@ -12,6 +12,7 @@ export default defineConfig({
       output: {
         manualChunks: undefined
       }
-    }
+    },
+    emptyOutDir: true
   }
 })
